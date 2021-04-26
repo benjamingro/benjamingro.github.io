@@ -7,8 +7,8 @@ myApp.config(['$routeProvider', function ($routeProvider) {
             templateUrl: 'pages/home.html',
             controller:'HomeCtrl as ctrl'
         })
-        .when('/projects', {
-            templateUrl: 'pages/projects.html'
+        .when('/portfolio', {
+            templateUrl: 'pages/portfolio.html'
         })
         .otherwise({ redirectTo: '/' });
 
