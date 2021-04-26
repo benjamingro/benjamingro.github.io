@@ -14,35 +14,55 @@
         </h1>
         <div class="subheading mb-5">
             8437 Kedvale Avenue · Skokie, IL 60076 ·
-            <a href="mailto:gross.benji@gmail.com">gross.benji@gmail.com</a> · <a id="openVideoLink"><i class="fas fa-video"></i></a>
+            <a href="mailto:gross.benji@gmail.com">gross.benji@gmail.com</a> · <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/KxRl7glLf1U" data-target="#myModal"><i
+                    class="fas fa-video"></i></button>
         </div>
 
-        <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <!-- <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     </div>
                     <div class="modal-body">
-                        <!-- <iframe width="400" height="300" frameborder="0" allowfullscreen=""></iframe> -->
                         <iframe width="560" height="315" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div> -->
 
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <!-- 16:9 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/KxRl7glLf1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
         <p class="lead">
-            I am a 39 year old full stack web application developer. 
-            I have 10 years of experience in the food industry in bakery product research, development and commercialization and recently decided to transition my career to focus on computer science. 
+            I am a 39 year old full stack web application developer.
+            I have 10 years of experience in the food industry in bakery product research, development and
+            commercialization and recently decided to transition my career to focus on computer science.
         </p>
         <p class="lead mb-5">
-            I have been interested in computer science for 15 years and love the challenge of designing software to address challenges in science, engineering, business and education.
+            I have been interested in computer science for 15 years and love the challenge of designing software to
+            address challenges in science, engineering, business and education.
 
         </p>
         <div class="social-icons">
-            <a class="social-icon" href="https://www.linkedin.com/in/nutritionengineering/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a class="social-icon" href="https://github.com/benjamingro" target="_blank"><i class="fab fa-github"></i></a>
+            <a class="social-icon" href="https://www.linkedin.com/in/nutritionengineering/" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a class="social-icon" href="https://github.com/benjamingro" target="_blank"><i
+                    class="fab fa-github"></i></a>
             <!-- <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
             <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a> -->
         </div>
