@@ -3,24 +3,7 @@ myApp.controller('HomeCtrl', [function () {
 
     self.$videoSrc = 'https://www.youtube.com/embed/KxRl7glLf1U?autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;cc_lang_pref=en&amp;'; 
     self.setUiBehavior = function () {
-        // $('#openVideoLink').click(function () {
-        //     var src = 'https://www.youtube.com/embed/KxRl7glLf1U';
-        //     $('#myModal').modal('show');
-        //     $('#myModal iframe').attr('src', src);
-        // });
-
-        // $('#myModal button').click(function () {
-        //     $('#myModal iframe').removeAttr('src');
-        // });
-
-        // Gets the video src from the data-src on each button
-
-        // var $videoSrc;
-        // $('.video-btn').click(function () {
-        //     self.$videoSrc = $(this).data("src");
-        // });
-        // console.log($videoSrc);
-
+       
 
 
         // when the modal is opened autoplay it  

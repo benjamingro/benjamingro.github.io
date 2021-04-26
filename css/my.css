@@ -3,12 +3,11 @@
     margin: 30px auto;
 }
 
-
-
 .modal-body {
 position:relative;
 padding:0px;
 }
+
 .close {
 position:absolute;
 right:-30px;
