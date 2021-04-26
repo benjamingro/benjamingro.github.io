@@ -1,4 +1,4 @@
-myApp.controller('MyCtrl',[function(){
+myApp.controller('OverallCtrl',[function(){
     var self = this; 
     self.hello = "hello"; 
 }]); 
