@@ -18,3 +18,20 @@ font-weight: normal;
 color:#fff;
 opacity:1;
 }
+
+.bigIcon{
+    font-size:8rem;
+}
+
+.bigIconSubTitle{
+    font-weight:bolder;
+}
+
+.bigIconSubSubTitle{
+    margin-left:0.2rem;
+    font-size:smaller;
+}
+
+a{
+    text-decoration:none !important;
+}
