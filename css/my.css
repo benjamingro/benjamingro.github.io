@@ -21,15 +21,17 @@ opacity:1;
 
 .bigIcon{
     font-size:8rem;
+    color:#03b5aa;
 }
 
 .bigIconSubTitle{
     font-weight:bolder;
+    font-size:1.3rem;
 }
 
 .bigIconSubSubTitle{
     margin-left:0.2rem;
-    font-size:smaller;
+    /* font-size:smaller; */
 }
 
 a{
