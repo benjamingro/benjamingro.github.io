@@ -10,8 +10,11 @@ myApp.config(['$routeProvider', function ($routeProvider) {
         .when('/portfolio', {
             templateUrl: 'pages/portfolio.html'
         })
-        .when('/capabilities', {
-            templateUrl: 'pages/capabilities.html'
+        .when('/skills', {
+            templateUrl: 'pages/skills.html'
+        })
+        .when('/education', {
+            templateUrl: 'pages/education.html'
         })
         .otherwise({ redirectTo: '/' });
 

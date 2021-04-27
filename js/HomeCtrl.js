@@ -1,7 +1,7 @@
 myApp.controller('HomeCtrl', [function () {
     var self = this;
 
-    self.$videoSrc = 'https://www.youtube.com/embed/KxRl7glLf1U?autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;cc_lang_pref=en&amp;'; 
+    self.$videoSrc = 'https://www.youtube.com/embed/FDLOWbJ5N0g?autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;cc_lang_pref=en&amp;'; 
     self.setUiBehavior = function () {
        
 
