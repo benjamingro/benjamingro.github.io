@@ -2,7 +2,7 @@ myApp.controller('OverallCtrl',[function(){
     var self = this; 
     self.setUiBehavior = function()
     {
-        $('.nav-item').click(function(){
+        $('.nav-item, .navbar-brand').click(function(){
             $('.navbar-collapse').removeClass('show');
         });
     } 
