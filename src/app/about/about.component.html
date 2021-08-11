@@ -1,0 +1,96 @@
+<section class="resume-section">
+    <div class="resume-section-content">
+        <h2 class="mb-0">
+            Ben
+            <span class="text-primary">Gross</span>
+        </h2>
+        <h4 class="text-secondary mt-2 mt-0">Full Stack Engineer</h4>
+        <div class="subheading mb-5">
+            8437 Kedvale Avenue · Skokie, IL 60076 ·
+            <a href="mailto:gross.benji@gmail.com" target="_blank">gross.benji@gmail.com</a>
+        </div>
+
+        <ng-template #content let-modal>
+            <div class="modal-header py-1 d-flex justify-content-end ">
+                <div class="col-9">Ben Gross biography</div>
+                <div class="col-3 d-flex justify-content-end">
+                    <button type="button" class="btn btn-secondary btn-sm py-0 px-1" (click)="modal.dismiss()"
+                        style="outline:none;box-shadow:none;">
+                        <fa-icon [icon]="faTimes"></fa-icon>
+                    </button>
+                </div>
+            </div>
+            <div class="modal-body">
+
+                <div class="embed-responsive embed-responsive-16by9">
+
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/qVx7rV5KsQ4?autoplay=1&rel=0&modestbranding=1showinfo=0cc_lang_pref=en"
+                        id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+                    <!-- <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/FDLOWbJ5N0g?autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;cc_lang_pref=en&amp;"
+                        id="video" allowscriptaccess="always" allow="autoplay"></iframe> -->
+                </div>
+
+            </div>
+
+        </ng-template>
+
+        <h4 class="text-secondary">Biography&nbsp;&nbsp;&nbsp;&nbsp;<a data-toggle="modal" data-target="#myModal"
+                routerLink="/about" (click)="open(content)">
+                <fa-icon [icon]="faYoutube"></fa-icon>
+            </a></h4>
+        <p class="lead">
+            I am a full stack engineer with a passion for solving problems in business, education,
+            engineering and science. I deliver responsive, beautiful user interfaces and highly effective
+            back-end applications that solve unique business challenges and deliver growth.
+        </p>
+        <p class="lead">
+            As the owner of a small startup tech company, I am proud to have launched and monetized a Google Workspace
+            Add-on called <a href="https://www.nutrasheets.com" target="_blank">Nutrasheets</a> that enables food
+            developers to leverage 300,000+ ingredients to create formulas
+            and nutrition labels in Google Sheets. This project remains actively under development with a growing base
+            of users in academia, industry and start-ups, and a full pipeline of new features planned for launch mid
+            2021.
+        </p>
+        <p class="lead">
+            I am a student in MIT xPRO Full Stack Web Application Certificate program completing November
+            2021. It has been a great opportunity to level up my skills in professional web application development. I
+            am so excited leverage my tech skills to help build the future.
+        </p>
+        <p class="lead">
+            Please contact me via <a href="mailto:gross.benji@gmail.com" target="_blank">email</a> or <a
+                href="https://www.linkedin.com/in/nutritionengineering/" target="_blank">LinkedIN</a>.
+        </p>
+        <p class="lead">
+            Thank you,
+        </p>
+        <p class="lead">
+            <span class="d-block" style="font-weight:bold;">Ben Gross</span>
+            <span class="d-block">Chief Solutions Architect</span>
+            <span class="d-block">Nutrition Engineering LLC</span>
+
+        </p>
+
+
+        <div class="social-icons">
+            <a class="social-icon" href="https://www.linkedin.com/in/nutritionengineering/" target="_blank">
+                <fa-icon [icon]="faLinkedinIn"></fa-icon>
+            </a>
+            <a class="social-icon" href="https://github.com/benjamingro" target="_blank">
+                <fa-icon [icon]="faGithub"></fa-icon>
+            </a>
+            <!-- <a class="social-icon" href="https://github.com/benjamingro" target="_blank">
+                Résumé
+            </a> -->
+            <!-- <button class="btn btn-secondary">Résumé <fa-icon [icon]="faFileDownload"></fa-icon></button> -->
+            <button class="btn btn-secondary btn-lg myButton mb-2"
+                style="background-color:#495057; outline:none;box-shadow:none;"
+                (click)="downloadPdf()">Résumé&nbsp;&nbsp;<fa-icon [icon]="faFileDownload"></fa-icon></button>
+
+            <!-- <a routerLink="/about"><h5 class="d-inline">Résumé <fa-icon [icon]="faFileDownload"></fa-icon></h5></a> -->
+
+        </div>
+    </div>
+</section>
+<hr class="m-0" />

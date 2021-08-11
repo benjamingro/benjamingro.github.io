@@ -1,19 +1,15 @@
-## Week 11 - GitHub Project
-#### MIT xPRO Professional Certificate in Coding: Full Stack Development with MERN - January 2021
+## Ben Gross GitHub Portfolio 
 
-This repository was created per requirements for the GitHub Project for week 11. 
-This project can be viewed in a web browser at  [https://benjamingro.github.io/](https://benjamingro.github.io/). 
+This repository was created as a portfolio to showcase my skills in full stack engineering to potential employers. 
 
-### Future Work
-I intend to update this project regularly to keep potential employes apprised of my progress. 
+### Viewing this project 
+This project can be viewed in a web browser courtesy of GitHub Pages at  [https://benjamingro.github.io/](https://benjamingro.github.io/). 
 
-### License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+### Attribution 
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3. The styling is based on the [Bootstrap résumé template](https://startbootstrap.com/theme/resume) with color theme chosen from [https://coolors.co](https://coolors.co/ef476f-ffd166-06d6a0-118ab2-073b4c). 
 
+### Contact 
+gross.benji@gmail.com
 
-
-
-
-
-
+[LinkedIN](https://www.linkedin.com/in/nutritionengineering/)

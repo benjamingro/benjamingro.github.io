@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto"),
+      url("./assets/fonts/Roboto/Roboto-Regular.ttf")
+        format("truetype");
+  }
+
+@font-face {
+font-family: "Roboto Condensed";
+src: local("Roboto Condensed"),
+    url("./assets/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: local("Rubik"),
+        url("./assets/fonts/Rubik/Rubik-VariableFont_wght.ttf")
+        format("truetype");
+    }
+
+@font-face {
+    font-family: "Rubik Mono One";
+    src: local("Rubik Mono One"),
+        url("./assets/fonts/Rubik_Mono_One/RubikMonoOne-Regular.ttf")
+        format("truetype");
+    }
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+@import './scss/custom.scss';
+
+
+
