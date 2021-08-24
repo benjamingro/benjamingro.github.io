@@ -6,13 +6,13 @@
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
-            class="navbar-toggler-icon"></span></button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            class="navbar-toggler-icon" (click)="toggleNavbarMenu()"></span></button>
+    <div class="navbar-collapse" id="navbarSupportedContent" [ngClass]="navbar_menu_expand_mobile?'':'collapse'">
         <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" routerLink="/about" [ngClass]="current_route.search('/about')>=0?'active':''">About</a></li>
-            <li class="nav-item"><a class="nav-link" routerLink="/portfolio" [ngClass]="current_route.search('/portfolio')>=0?'active':''">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link" routerLink="/skills" [ngClass]="current_route.search('/skills')>=0?'active':''">Skills</a></li>
-            <li class="nav-item"><a class="nav-link" routerLink="/education" [ngClass]="current_route.search('/education')>=0?'active':''">Education</a></li>
+            <li class="nav-item"><a class="nav-link" routerLink="/about" [ngClass]="current_route.search('/about')>=0?'active':''" (click)="toggleNavbarMenu()">About</a></li>
+            <li class="nav-item"><a class="nav-link" routerLink="/portfolio" [ngClass]="current_route.search('/portfolio')>=0?'active':''" (click)="toggleNavbarMenu()">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" routerLink="/skills" [ngClass]="current_route.search('/skills')>=0?'active':''" (click)="toggleNavbarMenu()">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" routerLink="/education" [ngClass]="current_route.search('/education')>=0?'active':''" (click)="toggleNavbarMenu()">Education</a></li>
         </ul>
     </div>
 </nav>
